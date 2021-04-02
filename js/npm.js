@@ -11,3 +11,4 @@ require('../../js/popover.js')
 require('../../js/scrollspy.js')
 require('../../js/tab.js')
 require('../../js/affix.js')
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
