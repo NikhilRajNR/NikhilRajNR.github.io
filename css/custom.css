@@ -52,10 +52,10 @@ footer {
 	font-size: 30px;
 }
 .homepage h3 {
-	font-size: 26px;
+	font-size: 22px;
 }
 .homepage p {
-	font-size: 21px;
+	font-size: 20px;
 	font-weight: 300;
 }
 .homepage a {
@@ -67,8 +67,8 @@ footer {
 	opacity: 0.8;
 }
 .homepage hr {
-	border-color: #e74c3c;
-	width: 160px;
+	border-color: #97190b;
+	width: 200px;
 	margin-top: 15px;
 }
 /* Responsive styling for Medium devices (desktops, 992px and up) */
