@@ -8,7 +8,7 @@ Quick reference for all customizable settings in your portfolio.
 
 ## 👤 Personal Information
 
-```
+```yaml
 Full Name: Nikhil Raj
 Job Title: Senior DevOps / SRE Engineer
 Professional Title: Senior DevOps Engineer
@@ -18,7 +18,8 @@ Current Status: Working Remotely
 ```
 
 **Update to your info:**
-```
+
+```yaml
 Full Name: [Your Name]
 Job Title: [Your Job Title]
 Professional Title: [Your Professional Title]
@@ -31,7 +32,7 @@ Current Status: [Available for Opportunities / Open to Opportunities / Working]
 
 ## 📧 Contact Information
 
-```
+```yaml
 Email: nikhilrajbu@gmail.com
 Phone: +91 87597 47230
 GitHub: https://github.com/NikhilRaj-DevOps
@@ -41,7 +42,8 @@ Website: https://nikhilrajnr.github.io
 ```
 
 **Update to your info:**
-```
+
+```yaml
 Email: [your.email@example.com]
 Phone: [+1 (234) 567-890]
 GitHub: https://github.com/[your-username]
@@ -58,7 +60,8 @@ Website: https://[your-username].github.io
 "Results-driven Senior DevOps / SRE Engineer with 8+ years of experience designing and managing scalable CI/CD pipelines, cloud infrastructure, and containerized workloads across Azure, GCP, and AWS."
 
 **Update to your summary (2-3 sentences):**
-```
+
+```yaml
 [Your professional summary]
 ```
 
@@ -69,7 +72,8 @@ Website: https://[your-username].github.io
 ### Current Roles/Jobs to list:
 
 **Position 1:**
-```
+
+```yaml
 Title: Senior DevOps Engineer
 Company: Aziro
 Location: Bangalore, India (Remote)
@@ -80,7 +84,8 @@ Tools: 10-15 relevant technologies
 ```
 
 **Update format for each role:**
-```
+
+```yaml
 Title: [Your Title]
 Company: [Company Name]
 Location: [City, Country]
@@ -100,7 +105,7 @@ Tools: Tool1, Tool2, Tool3
 
 ### Categories (Update as needed):
 
-```
+```yaml
 CI/CD & DevOps: Jenkins, ArgoCD, Azure DevOps, GitHub Actions
 Containers & Orchestration: Docker, Kubernetes, Helm, Kustomize
 Cloud Platforms: Azure, GCP, AWS
@@ -112,7 +117,8 @@ Methodologies: Agile, Scrum, SRE, ITIL
 ```
 
 **Update your skills:**
-```
+
+```yaml
 Category 1: Skill1, Skill2, Skill3
 Category 2: Skill4, Skill5, Skill6
 Category 3: Skill7, Skill8, Skill9
@@ -122,13 +128,14 @@ Category 3: Skill7, Skill8, Skill9
 
 ## 🏆 Certifications
 
-```
+```yaml
 Certification 1: AZ-104 - Azure Administrator Associate
 Certification 2: AZ-900 - Azure Fundamentals
 ```
 
 **Update your certifications:**
-```
+
+```yaml
 Certification Code: [CERT-CODE]
 Full Name: [Full Certification Name]
 Provider: [Microsoft, AWS, Google, etc.]
@@ -139,7 +146,7 @@ Year: [Year Obtained]
 
 ## 🎖️ Awards & Achievements
 
-```
+```yaml
 Award 1:
   Name: Innovation Award
   Company: Cognizant
@@ -156,7 +163,8 @@ Award 2:
 ```
 
 **Update your awards:**
-```
+
+```yaml
 Award Name: [Award Name]
 Organization: [Company Name]
 Project/Team: [Project Name]
@@ -168,7 +176,7 @@ Description: [What you did to receive the award]
 
 ## 🚀 Projects/Engagements
 
-```
+```yaml
 Project 1:
   Name: HPE InfoSight
   Type: AIOps Platform
@@ -186,7 +194,8 @@ Project 2:
 ```
 
 **Update your projects:**
-```
+
+```yaml
 Project Name: [Project Name]
 Category: [Project Type/Industry]
 Duration: [Year - Year]
@@ -201,7 +210,7 @@ Key Achievements:
 
 ## 🎓 Education
 
-```
+```yaml
 Degree: B.E. in Electronics and Communication Engineering
 University: The University of Burdwan
 Country: India
@@ -210,7 +219,8 @@ GPA: [Optional]
 ```
 
 **Update your education:**
-```
+
+```yaml
 Degree: [Your Degree]
 University: [University Name]
 Country: [Country]
@@ -221,7 +231,7 @@ Period: [Start Year] - [End Year]
 
 ## 🔗 Open Source & Community
 
-```
+```yaml
 Section 1:
   Title: Active GitHub Community
   Points:
@@ -240,8 +250,9 @@ Section 2:
 
 ## 🎨 Design Customization
 
-### Color Scheme:
-```
+### Color Scheme':'
+
+```yaml
 Primary Dark: #0f172a (Dark Navy)
 Primary Light: #f8fafc (Light White)
 Accent Color: #38bdf8 (Cyan/Blue)
@@ -250,16 +261,18 @@ Text Dark: #102a43
 Text Gray: #475569
 ```
 
-### Fonts:
-```
+### Fonts':'
+
+```yaml
 Main Font: Arvo (serif)
 Headers: Bold Arvo
 Body: Regular/Normal Arvo
 Alternative: Poppins (modern), JetBrains Mono (technical)
 ```
 
-### Icon Set:
-```
+### Icon Set':'
+
+```yaml
 Font Awesome Icons (version 4.7)
 Examples: github, linkedin, twitter, envelope, phone, map-marker
 ```
@@ -268,14 +281,16 @@ Examples: github, linkedin, twitter, envelope, phone, map-marker
 
 ## 📄 Files Checklist
 
-### Essential Files:
+### Essential Files':'
+
 - [ ] `index.html` - Main portfolio page
 - [ ] `css/custom.css` - Custom styling
 - [ ] `README.md` - Portfolio overview
 - [ ] `CUSTOMIZATION_GUIDE.md` - How to customize
 - [ ] `DEPLOYMENT_GUIDE.md` - How to deploy
 
-### Optional Files:
+### Optional Files':'
+
 - [ ] `resume.pdf` - Your resume for download
 - [ ] `images/hero_image.jpg` - Background image
 - [ ] `images/university_logo.png` - Education institution logo
@@ -285,23 +300,27 @@ Examples: github, linkedin, twitter, envelope, phone, map-marker
 
 ## 📸 Images Specifications
 
-### Hero/Background Image:
+### Hero/Background Image':'
+
 - Dimensions: 1920×1080px or larger
 - Format: JPG or PNG
 - Size: < 500KB (compress for performance)
 - Location: `images/hero_image.jpg`
 
-### Favicon:
+### Favicon':'
+
 - Dimensions: 32×32px or 64×64px
 - Format: PNG
 - Location: `images/favicon-32x32.png`
 
-### University Logo:
+### University Logo':'
+
 - Dimensions: 150×150px
 - Format: PNG (transparent background)
 - Location: `images/[university_name]_logo.png`
 
-### Resume:
+### Resume':'
+
 - Format: PDF
 - Size: < 2MB
 - Location: Root directory as `resume.pdf`
@@ -310,7 +329,7 @@ Examples: github, linkedin, twitter, envelope, phone, map-marker
 
 ## 🔍 SEO Settings
 
-### Meta Tags:
+### Meta Tags':'
 
 ```html
 <!-- Title (50-60 characters) -->
@@ -327,14 +346,15 @@ Examples: github, linkedin, twitter, envelope, phone, map-marker
 ```
 
 **Your settings:**
-```
+
+```yaml
 Title: [Your Name | Your Title - Your Specialization]
 Description: [Your 160-char description]
 Keywords: [Your keywords separated by commas]
 Author: [Your Name]
 ```
 
-### Open Graph Tags:
+### Open Graph Tags':'
 
 ```html
 <meta property="og:title" content="Your Name | Your Title">
@@ -347,7 +367,7 @@ Author: [Your Name]
 
 ## 🌐 Social Media Links
 
-```
+```yaml
 GitHub: https://github.com/NikhilRaj-DevOps
 LinkedIn: https://linkedin.com/in/nikhilrajnr
 Twitter: https://twitter.com/[optional]
@@ -361,7 +381,8 @@ YouTube: https://youtube.com/c/[optional]
 
 ## 📋 Pre-Launch Checklist
 
-### Content Review:
+### Content Review':'
+
 - [ ] All personal information is accurate
 - [ ] All links are working (tested locally)
 - [ ] No spelling/grammar errors
@@ -370,7 +391,8 @@ YouTube: https://youtube.com/c/[optional]
 - [ ] Social media links are correct
 - [ ] Email address is accessible
 
-### Design Review:
+### Design Review':'
+
 - [ ] Looks good on desktop (1920px, 1440px)
 - [ ] Looks good on tablet (768px)
 - [ ] Looks good on mobile (375px, 414px)
@@ -378,7 +400,8 @@ YouTube: https://youtube.com/c/[optional]
 - [ ] Font sizes are appropriate
 - [ ] Images are optimized and loading
 
-### Technical Review:
+### Technical Review':'
+
 - [ ] No console errors (F12 → Console)
 - [ ] All CSS files are loading
 - [ ] All images are displaying
@@ -387,7 +410,8 @@ YouTube: https://youtube.com/c/[optional]
 - [ ] Responsive design works
 - [ ] Fast page load time
 
-### SEO Review:
+### SEO Review':'
+
 - [ ] Meta description is compelling
 - [ ] Title tag is optimized
 - [ ] Keywords are included
@@ -412,20 +436,23 @@ YouTube: https://youtube.com/c/[optional]
 
 ## 📞 Support & Resources
 
-### Official Documentation:
+### Official Documentation':'
+
 - GitHub Pages: https://pages.github.com/
 - Bootstrap 3: https://getbootstrap.com/docs/3.4/
 - Font Awesome: https://fontawesome.com/
 - Google Fonts: https://fonts.google.com/
 
-### Useful Tools:
+### Useful Tools':'
+
 - Favicon Generator: https://favicon.io/
 - Image Compressor: https://tinypng.com/
 - SEO Checker: https://www.seobility.net/
 - CSS Validator: https://jigsaw.w3.org/css-validator/
 - HTML Validator: https://validator.w3.org/
 
-### Learning Resources:
+### Learning Resources':'
+
 - HTML Tutorial: https://www.w3schools.com/html/
 - CSS Tutorial: https://www.w3schools.com/css/
 - Git Guide: https://rogerdudler.github.io/git-guide/
@@ -435,7 +462,7 @@ YouTube: https://youtube.com/c/[optional]
 
 ## 📝 Version History
 
-```
+```yaml
 Version 1.0 - Initial portfolio setup
 Version 2.0 - Enhanced design with new sections
 Version 2.1 - Added Open Source section
