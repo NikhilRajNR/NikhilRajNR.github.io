@@ -2,7 +2,7 @@
 
 Quick reference for all customizable settings in your portfolio.
 
-**Update this file with your information, then use it as a checklist.**
+Update this file with your information, then use it as a checklist.
 
 ---
 
@@ -17,7 +17,7 @@ Location: Bangalore, India
 Current Status: Working Remotely
 ```
 
-**Update to your info:**
+### Update to your info
 
 ```yaml
 Full Name: [Your Name]
@@ -41,7 +41,7 @@ Twitter: [Optional]
 Website: https://nikhilrajnr.github.io
 ```
 
-**Update to your info:**
+### Update to your info
 
 ```yaml
 Email: [your.email@example.com]
@@ -56,10 +56,11 @@ Website: https://[your-username].github.io
 
 ## 🎓 Professional Summary
 
-**Current:**
+### Current
+
 "Results-driven Senior DevOps / SRE Engineer with 8+ years of experience designing and managing scalable CI/CD pipelines, cloud infrastructure, and containerized workloads across Azure, GCP, and AWS."
 
-**Update to your summary (2-3 sentences):**
+#### Update to your summary (2-3 sentences)
 
 ```yaml
 [Your professional summary]
@@ -69,9 +70,9 @@ Website: https://[your-username].github.io
 
 ## 💼 Experience
 
-### Current Roles/Jobs to list:
+### Current Roles/Jobs to [list':']
 
-**Position 1:**
+#### Position 1
 
 ```yaml
 Title: Senior DevOps Engineer
@@ -83,7 +84,7 @@ Achievements: 5-8 bullet points per project
 Tools: 10-15 relevant technologies
 ```
 
-**Update format for each role:**
+#### Update format for each role
 
 ```yaml
 Title: [Your Title]
@@ -103,7 +104,7 @@ Tools: Tool1, Tool2, Tool3
 
 ## 🛠️ Skills & Technologies
 
-### Categories (Update as needed):
+### Categories (Update as needed)
 
 ```yaml
 CI/CD & DevOps: Jenkins, ArgoCD, Azure DevOps, GitHub Actions
@@ -116,7 +117,7 @@ Databases: MS SQL, Oracle, MySQL, MongoDB
 Methodologies: Agile, Scrum, SRE, ITIL
 ```
 
-**Update your skills:**
+#### Update your skills
 
 ```yaml
 Category 1: Skill1, Skill2, Skill3
@@ -133,7 +134,7 @@ Certification 1: AZ-104 - Azure Administrator Associate
 Certification 2: AZ-900 - Azure Fundamentals
 ```
 
-**Update your certifications:**
+### Update your certifications
 
 ```yaml
 Certification Code: [CERT-CODE]
@@ -162,7 +163,7 @@ Award 2:
   Description: Developed vulnerability assessment tool...
 ```
 
-**Update your awards:**
+### Update your awards
 
 ```yaml
 Award Name: [Award Name]
@@ -193,7 +194,7 @@ Project 2:
     - Achievement 2
 ```
 
-**Update your projects:**
+### Update your projects
 
 ```yaml
 Project Name: [Project Name]
@@ -218,7 +219,7 @@ Period: 2013 - 2017
 GPA: [Optional]
 ```
 
-**Update your education:**
+### Update your education
 
 ```yaml
 Degree: [Your Degree]
@@ -250,7 +251,7 @@ Section 2:
 
 ## 🎨 Design Customization
 
-### Color Scheme':'
+### Color Scheme
 
 ```yaml
 Primary Dark: #0f172a (Dark Navy)
@@ -261,7 +262,7 @@ Text Dark: #102a43
 Text Gray: #475569
 ```
 
-### Fonts':'
+### Fonts
 
 ```yaml
 Main Font: Arvo (serif)
@@ -270,7 +271,7 @@ Body: Regular/Normal Arvo
 Alternative: Poppins (modern), JetBrains Mono (technical)
 ```
 
-### Icon Set':'
+### Icon Set
 
 ```yaml
 Font Awesome Icons (version 4.7)
@@ -281,7 +282,7 @@ Examples: github, linkedin, twitter, envelope, phone, map-marker
 
 ## 📄 Files Checklist
 
-### Essential Files':'
+### Essential Files
 
 - [ ] `index.html` - Main portfolio page
 - [ ] `css/custom.css` - Custom styling
@@ -289,7 +290,7 @@ Examples: github, linkedin, twitter, envelope, phone, map-marker
 - [ ] `CUSTOMIZATION_GUIDE.md` - How to customize
 - [ ] `DEPLOYMENT_GUIDE.md` - How to deploy
 
-### Optional Files':'
+### Optional Files
 
 - [ ] `resume.pdf` - Your resume for download
 - [ ] `images/hero_image.jpg` - Background image
@@ -300,26 +301,26 @@ Examples: github, linkedin, twitter, envelope, phone, map-marker
 
 ## 📸 Images Specifications
 
-### Hero/Background Image':'
+### Hero/Background Image
 
 - Dimensions: 1920×1080px or larger
 - Format: JPG or PNG
 - Size: < 500KB (compress for performance)
 - Location: `images/hero_image.jpg`
 
-### Favicon':'
+### Favicon
 
 - Dimensions: 32×32px or 64×64px
 - Format: PNG
 - Location: `images/favicon-32x32.png`
 
-### University Logo':'
+### University Logo
 
 - Dimensions: 150×150px
 - Format: PNG (transparent background)
 - Location: `images/[university_name]_logo.png`
 
-### Resume':'
+### Resume
 
 - Format: PDF
 - Size: < 2MB
@@ -329,7 +330,7 @@ Examples: github, linkedin, twitter, envelope, phone, map-marker
 
 ## 🔍 SEO Settings
 
-### Meta Tags':'
+### Meta Tags
 
 ```html
 <!-- Title (50-60 characters) -->
@@ -345,7 +346,7 @@ Examples: github, linkedin, twitter, envelope, phone, map-marker
 <meta name="author" content="Your Name">
 ```
 
-**Your settings:**
+#### Your settings
 
 ```yaml
 Title: [Your Name | Your Title - Your Specialization]
@@ -354,7 +355,7 @@ Keywords: [Your keywords separated by commas]
 Author: [Your Name]
 ```
 
-### Open Graph Tags':'
+### Open Graph Tags
 
 ```html
 <meta property="og:title" content="Your Name | Your Title">
@@ -381,7 +382,7 @@ YouTube: https://youtube.com/c/[optional]
 
 ## 📋 Pre-Launch Checklist
 
-### Content Review':'
+### Content Review
 
 - [ ] All personal information is accurate
 - [ ] All links are working (tested locally)
@@ -391,7 +392,7 @@ YouTube: https://youtube.com/c/[optional]
 - [ ] Social media links are correct
 - [ ] Email address is accessible
 
-### Design Review':'
+### Design Review
 
 - [ ] Looks good on desktop (1920px, 1440px)
 - [ ] Looks good on tablet (768px)
@@ -400,7 +401,7 @@ YouTube: https://youtube.com/c/[optional]
 - [ ] Font sizes are appropriate
 - [ ] Images are optimized and loading
 
-### Technical Review':'
+### Technical Review
 
 - [ ] No console errors (F12 → Console)
 - [ ] All CSS files are loading
@@ -410,7 +411,7 @@ YouTube: https://youtube.com/c/[optional]
 - [ ] Responsive design works
 - [ ] Fast page load time
 
-### SEO Review':'
+### SEO Review
 
 - [ ] Meta description is compelling
 - [ ] Title tag is optimized
@@ -436,14 +437,14 @@ YouTube: https://youtube.com/c/[optional]
 
 ## 📞 Support & Resources
 
-### Official Documentation':'
+### Official Documentation
 
 - GitHub Pages: https://pages.github.com/
 - Bootstrap 3: https://getbootstrap.com/docs/3.4/
 - Font Awesome: https://fontawesome.com/
 - Google Fonts: https://fonts.google.com/
 
-### Useful Tools':'
+### Useful Tools
 
 - Favicon Generator: https://favicon.io/
 - Image Compressor: https://tinypng.com/
@@ -451,7 +452,7 @@ YouTube: https://youtube.com/c/[optional]
 - CSS Validator: https://jigsaw.w3.org/css-validator/
 - HTML Validator: https://validator.w3.org/
 
-### Learning Resources':'
+### Learning Resources
 
 - HTML Tutorial: https://www.w3schools.com/html/
 - CSS Tutorial: https://www.w3schools.com/css/
@@ -472,9 +473,11 @@ Version 3.0 - [Your updates]
 
 ---
 
-**Last Updated:** May 2026
-**Created for:** Senior DevOps Professionals with 8+ years experience
-**Status:** Ready for customization and deployment
+```yaml
+Last Updated: May 2026
+Created for: Senior DevOps Professionals with 8+ years experience
+Status: Ready for customization and deployment
+```
 
 ---
 
@@ -491,6 +494,6 @@ Version 3.0 - [Your updates]
 9. Push to GitHub
 10. Verify at `https://yourusername.github.io`
 
-**Estimated time: 1-2 hours for full customization**
+Estimated time: 1-2 hours for full customization
 
 ---

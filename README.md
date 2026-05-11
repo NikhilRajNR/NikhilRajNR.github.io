@@ -60,12 +60,14 @@ Professional portfolio website for **Nikhil Raj**, a Senior DevOps Engineer with
 ### Local Setup
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/NikhilRaj-DevOps/NikhilRajNR.github.io.git
    cd NikhilRajNR.github.io
    ```
 
 2. **Preview locally** (optional):
+
    ```bash
    # Using Python 3
    python -m http.server 8000
@@ -76,12 +78,13 @@ Professional portfolio website for **Nikhil Raj**, a Senior DevOps Engineer with
    # Or using Node.js (if http-server is installed)
    http-server
    ```
-   
+
    Then visit: `http://localhost:8000`
 
 3. **Customize the portfolio** - See [Customization Guide](#customization-guide)
 
 4. **Commit and push changes:**
+
    ```bash
    git add .
    git commit -m "Update portfolio with customizations"
@@ -206,23 +209,27 @@ Modify the project cards:
 ## 📂 Sections Overview
 
 ### 1. Hero/Header Section
+
 - Eye-catching introduction
 - Professional summary
 - Call-to-action buttons
 - Quick links to experience and contact
 
 ### 2. About/Professional Summary
+
 - Career overview
 - Key highlights and expertise
 - Quick facts about experience
 
 ### 3. Experience
+
 - Detailed work history
 - Projects worked on within roles
 - Technologies and tools used
 - Key achievements and responsibilities
 
 ### 4. Core Skills
+
 - Organized by categories
 - CI/CD & DevOps tools
 - Container & orchestration platforms
@@ -234,28 +241,33 @@ Modify the project cards:
 - Methodologies
 
 ### 5. Certifications & Awards
+
 - Professional certifications
 - Industry recognition
 - Achievement awards
 
 ### 6. Selected Engagements (Projects)
+
 - Featured projects with highlights
 - Key technical implementations
 - Impact and results
 
 ### 7. Open Source & Community
+
 - GitHub contributions
 - Community involvement
 - Mentoring and technical writing
 - Links to repositories
 
 ### 8. Education
+
 - Degree information
 - University name
 - Graduation year
 - University logo
 
 ### 9. Contact & Footer
+
 - Email address
 - Phone number
 - Social media links
@@ -273,7 +285,8 @@ Modify the project cards:
    - Export as PDF named `resume.pdf`
 
 2. **Place in repository root:**
-   ```
+
+   ```yaml
    NikhilRajNR.github.io/
    ├── index.html
    ├── resume.pdf
@@ -283,6 +296,7 @@ Modify the project cards:
    ```
 
 3. **Download link in footer:**
+
    ```html
    <a href="resume.pdf" download class="btn btn-sm btn-danger">
      <i class="fa fa-download"></i> PDF Resume
@@ -311,6 +325,7 @@ Add a dedicated resume section to `index.html`:
 1. **Repository name must be:** `<username>.github.io`
 
 2. **Push code to main branch:**
+
    ```bash
    git branch -M main
    git push -u origin main
@@ -347,6 +362,7 @@ Changes go live within 1-2 minutes.
 ### SEO Optimization
 
 ✅ **Meta Tags:**
+
 - Title tag (60 characters)
 - Description meta tag (160 characters)
 - Keywords meta tag
@@ -354,9 +370,11 @@ Changes go live within 1-2 minutes.
 - Viewport meta tag for mobile
 
 ✅ **Open Graph Tags:**
+
 - og:title, og:description, og:image, og:url
 
 ✅ **Semantic HTML:**
+
 - Proper heading hierarchy (h1, h2, h3)
 - Semantic elements (header, nav, main, footer)
 - Structured data markup
@@ -407,6 +425,7 @@ Portfolio is fully responsive and tested on:
 - ✅ Mobile (375px, 414px, 540px)
 
 Media queries handle:
+
 - Font sizes
 - Padding/margins
 - Grid layouts
@@ -425,10 +444,10 @@ Media queries handle:
 
 ## 📧 Contact & Support
 
-**Email:** nikhilrajbu@gmail.com
+**Email:** <nikhilrajbu@gmail.com>
 **Phone:** +91 87597 47230
-**GitHub:** https://github.com/NikhilRaj-DevOps
-**LinkedIn:** https://linkedin.com/in/nikhilrajnr
+**GitHub:** <https://github.com/NikhilRaj-DevOps>
+**LinkedIn:** <https://linkedin.com/in/nikhilrajnr>
 
 ---
 
@@ -466,4 +485,4 @@ Have improvements or suggestions? Feel free to:
 
 ---
 
-**Created with ❤️ by Nikhil Raj**
+### Created with ❤️ by Nikhil Raj

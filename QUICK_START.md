@@ -23,16 +23,17 @@ Open `index.html` in your text editor and find/replace:
 
 ### Find This → Replace With Your Info
 
-```
+```md
 Nikhil Raj                          → Your Name
 Senior DevOps / SRE Engineer        → Your Job Title
-nikhilrajbu@gmail.com              → your.email@example.com
+nikhilrajbu@gmail.com               → your.email@example.com
 +918759747230                       → Your Phone
 https://github.com/NikhilRaj-DevOps → Your GitHub Profile
 https://linkedin.com/in/nikhilrajnr → Your LinkedIn Profile
 ```
 
 **What to update:**
+
 - [ ] Name (line 62)
 - [ ] Job Title (line 60, 70)
 - [ ] Professional Summary (line 63)
@@ -60,7 +61,7 @@ git push origin main
 
 ---
 
-## Step 4: Go Live!
+## Step 4: Go Live
 
 Visit: `https://YOUR-USERNAME.github.io`
 
@@ -90,7 +91,7 @@ http://localhost:8000
 
 ## 📋 Essential Updates
 
-### Minimum Required Changes:
+### Minimum Required Changes
 
 1. **Your Name** in hero section
 2. **Your Title** in header
@@ -99,7 +100,7 @@ http://localhost:8000
 5. **At least 1 experience entry**
 6. **Your skills**
 
-### Optional Enhancements:
+### Optional Enhancements
 
 - [ ] Upload `resume.pdf`
 - [ ] Add hero background image
@@ -112,7 +113,7 @@ http://localhost:8000
 
 ## 📂 File Structure
 
-```
+```yaml
 📁 repository/
 ├── 📄 index.html           ← Main page (EDIT THIS)
 ├── 📄 resume.pdf           ← Your resume (UPLOAD)
@@ -132,6 +133,7 @@ http://localhost:8000
 ## 🎯 Key Sections to Update
 
 ### 1. Hero Section
+
 ```html
 <h1>Your Name</h1>
 <p class="lead">Your professional summary here</p>
@@ -139,6 +141,7 @@ http://localhost:8000
 ```
 
 ### 2. Experience
+
 ```html
 <span class="experience-role">Your Job Title</span>
 <p class="experience-company">Company Name | City</p>
@@ -149,6 +152,7 @@ http://localhost:8000
 ```
 
 ### 3. Skills
+
 ```html
 <div class="skill-card">
   <strong>Your Category:</strong> Skill1, Skill2, Skill3
@@ -156,6 +160,7 @@ http://localhost:8000
 ```
 
 ### 4. Education
+
 ```html
 <h3>Your Degree Name</h3>
 <p>Your University Name | 2020 - 2024</p>
@@ -166,15 +171,18 @@ http://localhost:8000
 ## 🚀 Common Updates
 
 ### Change Hero Title
+
 Find: `<span class="eyebrow">Senior DevOps / SRE Engineer</span>`
 Replace: `<span class="eyebrow">Your Title</span>`
 
 ### Change Background Color
+
 File: `css/custom.css`
 Find: `background: linear-gradient(180deg, #f4f7fb 0%, #e8eef6 100%);`
 (Change hex colors)
 
 ### Change Button Color
+
 File: `css/custom.css`
 Find: `.btn-danger` color values
 (Update to your preferred color)
@@ -184,7 +192,7 @@ Find: `.btn-danger` color values
 ## 🔗 Where to Find Things
 
 | What | Where | Line |
-|------|-------|------|
+| ------ | ------- | ------ |
 | Name | index.html | 62 |
 | Title | index.html | 60, 70 |
 | Summary | index.html | 63, 78-80 |
@@ -201,6 +209,7 @@ Find: `.btn-danger` color values
 ## ⚠️ Common Mistakes
 
 ❌ **Don't:**
+
 - Change HTML structure (breaks layout)
 - Remove CSS classes (breaks styling)
 - Push `.git` or `node_modules`
@@ -208,6 +217,7 @@ Find: `.btn-danger` color values
 - Use absolute URLs
 
 ✅ **Do:**
+
 - Use relative URLs (`images/logo.png`)
 - Keep HTML structure intact
 - Compress images before uploading
@@ -219,6 +229,7 @@ Find: `.btn-danger` color values
 ## 🛠️ Troubleshooting
 
 ### Site not showing up?
+
 1. Repository named `<username>.github.io`?
 2. Repository set to PUBLIC?
 3. Settings → Pages → Source set to `main`?
@@ -226,12 +237,14 @@ Find: `.btn-danger` color values
 5. Hard refresh: `Ctrl+Shift+R`
 
 ### Old content still showing?
+
 1. Hard refresh: `Ctrl+Shift+R`
 2. Wait 1-2 minutes for rebuild
 3. Check you pushed with: `git log`
 4. Try incognito window
 
 ### Links not working?
+
 1. Check URLs start with `https://`
 2. Remove spaces from URLs
 3. Test in incognito window
@@ -242,11 +255,13 @@ Find: `.btn-danger` color values
 ## 📞 Get Help
 
 ### Resources
+
 - [GitHub Pages Guide](https://pages.github.com/)
 - [Git Basics](https://rogerdudler.github.io/git-guide/)
 - [Bootstrap Docs](https://getbootstrap.com/docs/3.4/)
 
 ### Read More
+
 - See `CUSTOMIZATION_GUIDE.md` for detailed instructions
 - See `DEPLOYMENT_GUIDE.md` for deployment help
 - See `CONFIGURATION.md` for all settings
@@ -268,16 +283,17 @@ Before going live:
 
 ---
 
-## 🎉 You're Done!
+## 🎉 You're Done
 
 ```bash
 # Your portfolio is live at:
 https://YOUR-USERNAME.github.io
 ```
 
-**Congratulations! Your professional portfolio is now online.** 
+**Congratulations! Your professional portfolio is now online.**
 
 Share with:
+
 - LinkedIn profile
 - Job applications
 - Resume
@@ -314,4 +330,4 @@ Share with:
 
 ---
 
-**Created for DevOps Professionals | 2026**
+### Created for DevOps Professionals | 2026

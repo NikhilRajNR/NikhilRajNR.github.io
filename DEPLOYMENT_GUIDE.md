@@ -39,7 +39,7 @@ cd <your-username>.github.io
 
 Copy all portfolio files to your local repository:
 
-```
+```yaml
 📁 your-username.github.io/
 ├── 📄 index.html
 ├── 📄 resume.pdf (optional)
@@ -98,12 +98,13 @@ git push -u origin main
 
 Your portfolio will be available at:
 
-```
+```htm
 https://<your-github-username>.github.io
 ```
 
 **Example:**
-```
+
+```htm
 https://john-doe.github.io
 ```
 
@@ -174,20 +175,23 @@ git log --oneline
 Add these DNS records at your registrar:
 
 **For apex domain (yourname.com):**
-```
+
+```yaml
 Type: A
 Name: @
 Value: 185.199.108.153
 ```
 
 Add all four:
+
 - 185.199.108.153
 - 185.199.109.153
 - 185.199.110.153
 - 185.199.111.153
 
-**For www subdomain (www.yourname.com):**
-```
+**For www subdomain (<www.yourname.com>):**
+
+```yaml
 Type: CNAME
 Name: www
 Value: <your-github-username>.github.io
@@ -210,6 +214,7 @@ Value: <your-github-username>.github.io
 ### Issue: Site not showing up
 
 **Solution:**
+
 1. Verify repository name is correct: `<username>.github.io`
 2. Check repository is **Public** (not Private)
 3. Go to Settings → Pages and verify source is set
@@ -220,6 +225,7 @@ Value: <your-github-username>.github.io
 ### Issue: Old content still showing
 
 **Solution:**
+
 1. Hard refresh browser: `Ctrl+Shift+R`
 2. Clear browser cache
 3. Try in incognito/private window
@@ -228,6 +234,7 @@ Value: <your-github-username>.github.io
 ### Issue: Assets (CSS/images) not loading
 
 **Solution:**
+
 1. Check all file paths are relative (not absolute)
 2. Verify file names match exactly (case-sensitive)
 3. Ensure files are committed and pushed
@@ -236,6 +243,7 @@ Value: <your-github-username>.github.io
 ### Issue: 404 error on pages
 
 **Solution:**
+
 1. Verify `index.html` is in repository root
 2. GitHub Pages only serves static HTML (no server-side files)
 3. All links should point to `.html` files
@@ -244,6 +252,7 @@ Value: <your-github-username>.github.io
 ### Issue: HTTPS not working
 
 **Solution:**
+
 1. Give GitHub 24 hours to enable HTTPS
 2. Make sure custom domain is set correctly
 3. Try clearing cache and browser cookies
@@ -394,6 +403,7 @@ Add Google Analytics:
 ### Monitor Uptime
 
 Services to check if site is up:
+
 - Uptime Robot (uptimerobot.com)
 - Statuspage (statuspage.io)
 - Better Uptime (betteruptime.com)
@@ -516,4 +526,4 @@ git push origin main
 
 ---
 
-**Your portfolio is now live! 🎉**
+### Your portfolio is now live! 🎉
