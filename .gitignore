@@ -1,0 +1,60 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Node/NPM
+node_modules/
+npm-debug.log
+package-lock.json
+yarn.lock
+
+# Build Outputs
+dist/
+build/
+*.min.css
+*.min.js
+
+# Temporary Files
+*.tmp
+*.temp
+.cache/
+temp/
+
+# System Files
+.env
+.env.local
+.env.*.local
+config.local.js
+
+# Dependencies
+vendor/
+lib/
+
+# Backup Files
+*.bak
+*.backup
+*.swp
+*.orig
+
+# OS Generated Files
+.AppleDouble
+.LSOverride
+ehthumbs.db
+*.Identifier
+
+# Personal/Private Files
+private/
+secrets.txt
+credentials.json
