@@ -233,15 +233,6 @@ body {
   color: #1e40af;
 }
 
-.skill-card::before {
-  content: '•';
-  display: inline-block;
-  margin-right: 12px;
-  color: #2563eb;
-  font-size: 1.4rem;
-  line-height: 1;
-}
-
 .cert-grid {
   margin-top: 20px;
 }
