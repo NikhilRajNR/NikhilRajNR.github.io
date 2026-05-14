@@ -408,7 +408,7 @@ You now have a **complete, professional portfolio** that is:
 5. **Deploy:** Push to GitHub & go live (5 min)
 6. **Share:** Add to LinkedIn & job applications
 
-### Total Time to Launch: 30-45 minutes
+### Total Time to Launch: 30-45 mins
 
 ---
 

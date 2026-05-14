@@ -43,12 +43,14 @@ git clone https://github.com/NikhilRaj-DevOps/NikhilRajNR.github.io.git
 Edit `index.html` - Replace the following:
 
 **Find:**
+
 ```html
 <h1>Nikhil Raj</h1>
 <p class="lead">Results-driven Senior DevOps / SRE Engineer...</p>
 ```
 
 **Replace with your info:**
+
 ```html
 <h1>Your Name</h1>
 <p class="lead">Your professional summary with key highlights...</p>
@@ -57,6 +59,7 @@ Edit `index.html` - Replace the following:
 ### 2. Contact Information
 
 **Find:**
+
 ```html
 <a href="mailto:nikhilrajbu@gmail.com">nikhilrajbu@gmail.com</a>
 <span>•</span>
@@ -66,6 +69,7 @@ Bangalore, India
 ```
 
 **Replace with:**
+
 ```html
 <a href="mailto:your.email@example.com">your.email@example.com</a>
 <span>•</span>
@@ -77,12 +81,14 @@ Your City, Country
 ### 3. Social Media Links
 
 **Find:**
+
 ```html
 <a href="https://github.com/NikhilRaj-DevOps" target="_blank">GitHub</a>
 <a href="https://linkedin.com/in/nikhilrajnr" target="_blank">LinkedIn</a>
 ```
 
 **Replace with your links:**
+
 ```html
 <a href="https://github.com/your-username" target="_blank">GitHub</a>
 <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
@@ -128,6 +134,7 @@ Each experience card follows this structure:
 ```
 
 **Tips:**
+
 - Use 3-5 bullet points per role
 - Focus on impact and achievements
 - Include 5-8 relevant tools/technologies
@@ -145,6 +152,7 @@ Skills are organized in a grid (3 columns on desktop):
 ```
 
 **Suggested Categories:**
+
 - **Languages:** Python, JavaScript, Go, etc.
 - **Platforms:** AWS, Azure, GCP, etc.
 - **Tools:** Docker, Kubernetes, Terraform, etc.
@@ -304,11 +312,13 @@ Increase/decrease rounded corners:
    - Size: < 500KB (compress if needed)
 
 2. **Place in `images/` folder:**
-   ```
+
+   ```css
    images/hero_image.jpg
    ```
 
 3. **Reference in CSS:**
+
    ```css
    .jumbotron {
      background: linear-gradient(...), url('../images/hero_image.jpg') center / cover no-repeat;
@@ -321,6 +331,7 @@ Increase/decrease rounded corners:
 2. **Name:** `University_of_[Name]_logo.png`
 3. **Place in `images/` folder**
 4. **Update HTML:**
+
    ```html
    <img src="images/your_university_logo.png" alt="University name" width="150" height="150">
    ```
@@ -331,6 +342,7 @@ Increase/decrease rounded corners:
 2. **Generate files:** favicon.png (32×32px)
 3. **Place in `images/` folder**
 4. **Already referenced in HTML:**
+
    ```html
    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
    ```
@@ -343,7 +355,8 @@ Increase/decrease rounded corners:
    - Name: `resume.pdf`
 
 2. **Place in root directory:**
-   ```
+
+   ```YAML
    NikhilRajNR.github.io/
    ├── index.html
    ├── resume.pdf
@@ -382,6 +395,7 @@ Find the footer contact section and add:
 ```
 
 **Available Font Awesome icons:**
+
 - `fa-github` - GitHub
 - `fa-linkedin` - LinkedIn
 - `fa-twitter` - Twitter
@@ -426,6 +440,7 @@ Find in `<head>` section:
 ```
 
 **Best practice:**
+
 - Length: 50-60 characters
 - Include name + title + key skill
 - Example: "John Doe | DevOps Engineer - AWS & Kubernetes Expert"
@@ -494,6 +509,7 @@ git push origin main
 ## Quick Edit Checklist
 
 **Minimum edits required:**
+
 1. ✅ Name in hero section
 2. ✅ Professional summary
 3. ✅ Experience (at least 1-2 roles)
@@ -504,6 +520,7 @@ git push origin main
 8. ✅ Remove/add sections as needed
 
 **Optional enhancements:**
+
 1. ✅ Upload resume.pdf
 2. ✅ Add hero background image
 3. ✅ Update color scheme
@@ -519,6 +536,7 @@ git push origin main
 ### Issue: Changes not showing up
 
 **Solution:**
+
 1. Hard refresh browser: `Ctrl+Shift+R` (Windows) or `Cmd+Shift+R` (Mac)
 2. Wait 2-3 minutes for GitHub Pages to rebuild
 3. Check repository Settings → Pages for build status
@@ -526,6 +544,7 @@ git push origin main
 ### Issue: Images not loading
 
 **Solution:**
+
 1. Verify file names match exactly (case-sensitive)
 2. Ensure images are in `images/` folder
 3. Check file paths in HTML are correct
@@ -534,6 +553,7 @@ git push origin main
 ### Issue: Styling looks off
 
 **Solution:**
+
 1. Clear browser cache
 2. Check CSS file is loading (check Network tab)
 3. Verify no syntax errors in CSS
@@ -542,6 +562,7 @@ git push origin main
 ### Issue: Links not working
 
 **Solution:**
+
 1. Verify URLs are complete (include https://)
 2. Use `target="_blank"` for external links
 3. Add `rel="noopener"` for security
@@ -560,4 +581,4 @@ git push origin main
 
 ---
 
-**Happy customizing! 🎉**
+### Happy customizing! 🎉
